@@ -35,7 +35,7 @@ services:
     volumes:
       - static:/app/static
     ports:
-      - "8003:80"
+      - "8000:80"
     depends_on:
       - web
     networks:
